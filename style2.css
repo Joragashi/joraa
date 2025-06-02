@@ -12,16 +12,15 @@ body{
 }
 
 header{
-    background-color: #333;
+    background-color: #f57373;
     color: white;
     padding: 20px 0;
     text-align: center;
     display: flex;
-
-    
-    
     }
+    
 #section-1{
+
     background-color: hwb(41 17% 11% / 0.445);
     height: 600px;
 
@@ -33,7 +32,7 @@ header{
     height: 100%;
     display: block;
 }
-h
+
 nav ul li{
     padding: 55px;
     display: flex;

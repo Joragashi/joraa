@@ -1,9 +1,58 @@
-body{
-    margin: 9;
-    font-family: 'Courier New', Courier, monospace;
+ *{
+margin: 0;
+padding: 0;
+
+
+ }
+ 
+ 
+ body{ 
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+background-color: rgb(236, 188, 216);
+color:bisque;
+padding: 0;
+margin: 0;
+   }
+header{
+    padding: 30px;
+    display: flex;
+    background-color:antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    
+
+
 }
+
+header img{
+    width:"50px";
+}
+nav ul{
+
+    list-style: none ;
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    padding: 15px;
+ } 
+nav ul li a :hover{
+  
+    background-color: bisque;
+    color:rgb(255, 138, 43);
+
+
+}
+
 #section-1{
-    background-color: blueviolet;
+    background-color: rgba(250, 191, 173, 0.712);
     height: 600px;
 
 }
@@ -12,30 +61,19 @@ body{
     margin-right: auto;
     height: 100%;
 }
-header{
-    padding: 55px;
-    display: flex;
-    justify-content: space-around;
-}
-nav ul li{
-    padding: 55px;
-    display: flex;
-    justify-content: space-around;
 
-}
-nav ul li {
-    display: inline block;
-    padding: 10px 16px;
- }
- nav ul li {
-    text-decoration: none;
-    color: beige;
- } 
+ 
  nav ul li.active{
-    background-color: aquamarine;
+    background-color: rgb(241, 200, 238);
     border-radius: 5px;
+     display: flex;
+
+
+
 
  }
+
+
 .main-heading{
     margin-top: 148px;
     text-align: center;
@@ -57,12 +95,12 @@ nav ul li {
 
  }
 .main-heading a:hover{
-    background-color: lightseagreen;
+    background-color: rgb(255, 194, 237);
     color: white;
     transition: 0.3s ease-in-out;
 }
 #section-2{
-    background-color: aquamarine;
+    background-color: rgb(146, 157, 248);
     min-height: 609px;
 }
 #section-2 h2{
