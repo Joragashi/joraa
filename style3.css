@@ -1,9 +1,4 @@
-{
-   
-    margin: 0;
-    padding: 0;
-}
-body {0
+body {
     font-family: Arial, sans-serif;
     background-color: #white;
     color: #333;
@@ -65,17 +60,33 @@ nav ul li a:hover {
 }
 
 
-section-2{
+#section-2{
     padding: 40px 20px;
     background-color: white;
     margin: 20px;
     border-radius: 10px;
 }
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h
+p {
+    margin: 10px 0;
+    color: #333;
+}
 
 h2 {
     color: #6f4e37;
 }
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 ul {
     padding-left: 20px;
     display: flex;
@@ -143,3 +154,246 @@ footer {
     text-align: center;
     margin-top: 5px;
 }
+.toimg{
+        display: flex;
+    justify-content: space-around;
+}
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37;
+}
+.toimg img:hover {
+    transform: scale(1.1);
+}
+.toimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.toimg p {
+    text-align: center;
+    margin-top: 5px;
+}
+.toimg a {
+    text-decoration: none;
+    color: #333;
+}
+
+.toimg a:hover {
+    color: #6f4e37;
+}
+.toimg h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+.toimg p {
+    margin-top: 10px;
+    color: #6f4e37
