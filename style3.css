@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #c19a6b;
+    background-color: #ad732c;
     color: white;
 }
 
@@ -74,13 +74,13 @@ ul {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 p {
     margin: 10px 0;
     color: #333;
+    font-weight: 100;
 }
 
 h2 {
@@ -94,8 +94,8 @@ h2 {
 ul {
     padding-left: 20px;
     display: flex;
-    margin: 5%; ;
-    
+    margin: 5%; 
+    font-weight: 100%;
 }
 
 #contact-form {
@@ -196,7 +196,7 @@ footer {
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #ccc;
+    background-color: #ddbb9b;
    padding: 40px;
    margin-left: auto;
    margin-right: auto;
@@ -214,11 +214,12 @@ footer {
 
 .services{
     margin: 40px;
-    background: #ccc;
+    background-color:
+#ddbb9b;
     border-radius: 15px;
     padding: 30px;
-    max-width: 900px;
-text-align: left;
+    max-width: none;
+text-align: center;
 }
 .title-box{
     display: flex;
